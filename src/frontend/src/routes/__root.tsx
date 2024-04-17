@@ -7,10 +7,10 @@ const Navbar = () => {
         className="shadow-inner-2xl  font-Lobster flex flex-row justify-between bg-primary  text-foreground transition-opacity duration-500 ease-in-out"
         data-replace='{ "opacity-0": "opacity-100" }'
       >
-        <Link to="/" className=" p-2">
+        <Link to="/" className="ml-14 p-2">
           <div className="flex flex-row transition hover:scale-90 active:scale-75">
             <img
-              className=" flex w-12 items-center "
+              className=" flex w-12  items-center scale-90"
               src="/logo.png"
               alt="logo"
             />
@@ -25,7 +25,7 @@ const Navbar = () => {
 
         <Link
           to="/about"
-          className="flex transition hover:scale-90 active:scale-75 "
+          className="mr-14 flex transition hover:scale-90 active:scale-75"
         >
           <div className="mr-4  flex items-center">
             <img src="/info.png" alt="info logo" className="shadow-2xl" />
